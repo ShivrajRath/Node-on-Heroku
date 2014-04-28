@@ -15,4 +15,6 @@ app.get('/', function(){
 	res.sendfile('index.html');
 });
 
+console.log(process.env.PORT);
+
 app.listen(process.env.PORT || 3000);
