@@ -1,0 +1,27 @@
+{
+  "name": "Node-on-Heroku",
+  "version": "0.0.0",
+  "description": "A sample node project to be hosted on Heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShivrajRath/Node-on-Heroku.git"
+  },
+  "keywords": [
+    "Node",
+    "Heroku"
+  ],
+  "author": "Shivraj Rath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivrajRath/Node-on-Heroku/issues"
+  },
+  "homepage": "https://github.com/ShivrajRath/Node-on-Heroku",
+  "dependencies": {
+    "express": "~4.1.1"
+  }
+}
